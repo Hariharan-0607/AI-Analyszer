@@ -24,12 +24,6 @@ A web app for student project evaluation: upload a ZIP, detect tech stack, gener
 - **Node.js 18+**
 - **Google Gemini API key** (free tier): https://aistudio.google.com/apikey
 
-Add your key to `backend/.env`:
-
-```env
-GEMINI_API_KEY=your_key_here
-GEMINI_MODEL=gemini-2.0-flash
-```
 
 If the API key is missing or Gemini is unreachable, the backend uses a **rule-based fallback** analyzer automatically.
 
@@ -295,16 +289,6 @@ pytest tests/ -v
 | `screenshot_detected` | Screenshot shortcut detected |
 | `snapshot_captured` | Heartbeat (no image data) |
 | `connection_lost` | Event stream gap |
-
----
-
-## Demo Video
-
-> **Add your demo video link here before submission** (Google Drive / OneDrive with view access).
->
-> Example: `https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing`
->
-> Suggested recording: upload demo ZIP → analyze → start viva → answer 1–2 questions → show proctoring alert → submit → show evaluation JSON.
 
 ---
 
