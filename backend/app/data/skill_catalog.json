@@ -1,0 +1,12 @@
+[
+  { "skill_id": "uuid-python", "skill_name": "Python" },
+  { "skill_id": "uuid-fastapi", "skill_name": "FastAPI" },
+  { "skill_id": "uuid-postgresql", "skill_name": "PostgreSQL" },
+  { "skill_id": "uuid-react", "skill_name": "React" },
+  { "skill_id": "uuid-javascript", "skill_name": "JavaScript" },
+  { "skill_id": "uuid-sql", "skill_name": "SQL" },
+  { "skill_id": "uuid-rest-api", "skill_name": "REST API" },
+  { "skill_id": "uuid-git", "skill_name": "Git" },
+  { "skill_id": "uuid-docker", "skill_name": "Docker" },
+  { "skill_id": "uuid-testing", "skill_name": "Unit Testing" }
+]

@@ -1,0 +1,9 @@
+output/evaluations/*.json
+output/proctoring_logs/*.json
+output/tech_stacks/*.json
+backend/.env
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
